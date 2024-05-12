@@ -8,4 +8,4 @@ Welcome to my weekend projects repository! Here you'll find a collection of smal
 
 - **Description:** an explorer on the Marvel Comics API.
 - **Technologies Used:** `Vue` `TailwindCSS` `TypeScript`
-- **Link:** [Marvel Explorer](#)
+- **Link:** [Marvel Explorer](https://github.com/TAYBI/weekend-projects/tree/main/marvel-explorer)

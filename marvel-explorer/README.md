@@ -4,12 +4,12 @@ Explore Marvel Comics using a third-party API.
 
 ## TODOS
 
-[ ] Init Project
-[ ] Retrieving data from the API
-[ ] Routing in a single-page application
-[ ] Writing and using composables
-[ ] Searching for and handling data
-[ ] User-friendly error handling
+- [ ] Init Project
+- [ ] Retrieving data from the API
+- [ ] Routing in a single-page application
+- [ ] Writing and using composables
+- [ ] Searching for and handling data
+- [ ] User-friendly error handling
 
 ---
 
