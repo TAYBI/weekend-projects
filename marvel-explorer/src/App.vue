@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
+import ComicsOverview from "@/components/ComicsOverview.vue";
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <ComicsOverview />
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis odit
+  praesentium, voluptate corporis alias maxime voluptates exercitationem eius
+  dolor veritatis, facilis rerum placeat nemo aperiam harum repellendus quasi
+  accusamus expedita!
 </template>
 
 <style scoped>
