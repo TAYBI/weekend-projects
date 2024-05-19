@@ -5,7 +5,7 @@ import ComicsOverview from "@/components/ComicsOverview.vue";
 </script>
 
 <template>
-  <ComicsOverview />
+  <RouterView />
 </template>
 
 <style scoped>

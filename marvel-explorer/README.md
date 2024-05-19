@@ -7,7 +7,7 @@ Explore Marvel Comics using a third-party API.
 - [x] Init Project
 - [x] Writing and using composables
 - [x] Retrieving data from the API
-- [ ] Create UI
+- [x] Create UI
 - [ ] Routing in a single-page application
 - [ ] Searching for and handling data
 - [ ] User-friendly error handling
