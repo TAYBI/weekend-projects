@@ -5,6 +5,7 @@ import { useComics } from "@/composables/marvelApi";
 import type { Comic } from "@/types/marvel";
 
 import LoadingIndicator from "./LoadingIndicator.vue";
+import ComicCard from "./ComicCard.vue";
 
 const data: Ref<Comic[] | undefined> = ref();
 const isLoading: Ref<boolean> = ref(false);
@@ -26,12 +27,10 @@ onMounted(async () => {
 <template>
   <div>
     <LoadingIndicator v-if="isLoading" text="Loadin Comics..." />
-    <div class="" v-if="data && !isLoading">
-      <ul>
-        <li class="font-semibold ml-2" key="comic.id" v-for="comic in data">
-          - {{ comic.title }}
-        </li>
-      </ul>
+    <div
+      class="grid grid-flow-row grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4"
+      v-if="data && !isLoading">
+      <ComicCard v-for="comic in data" :comic="comic" />
     </div>
   </div>
 </template>

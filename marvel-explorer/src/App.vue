@@ -6,10 +6,6 @@ import ComicsOverview from "@/components/ComicsOverview.vue";
 
 <template>
   <ComicsOverview />
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis odit
-  praesentium, voluptate corporis alias maxime voluptates exercitationem eius
-  dolor veritatis, facilis rerum placeat nemo aperiam harum repellendus quasi
-  accusamus expedita!
 </template>
 
 <style scoped>
