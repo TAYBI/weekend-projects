@@ -5,6 +5,16 @@ import ComicsOverview from "@/components/ComicsOverview.vue";
 </script>
 
 <template>
+  <header>
+    <div class="my-4 text-center">
+      <h1 class="mb-4 text-6xl font-extrabold uppercase">Marvel Explorer 🔭</h1>
+      <nav>
+        <RouterLink to="/" class=""> 📒 Comics </RouterLink>
+        <RouterLink to="/search" class=""> 🦹 Heroes </RouterLink>
+      </nav>
+    </div>
+  </header>
+
   <RouterView />
 </template>
 
